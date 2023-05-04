@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+$--color-text-primary: #001a3a;
+$--font-size-base: 14px;
+
+@import './element-variables.scss';
+
+$scrollbar-width: 15px;
+::-webkit-scrollbar {
+  // width: $scrollbar-width;
+  // height: $scrollbar-width;
+  // background-color: #666;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.8);
+  background-color: rgba(144, 147, 153, 0.3);
+}
+
+::-webkit-scrollbar-track {
+  //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  //background-color: #666;
+}
+
+::-webkit-scrollbar-button {
+  //background-color: #666;
+}
+
+::-webkit-scrollbar-track-piece {
+}
+
+::-webkit-scrollbar-corner {
+}
+
+::-webkit-resizer {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: '微软雅黑', 'microsoft yahei', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $--font-size-base;
+  color: $--color-text-primary;
+}
+
+input, textarea {
+  font-family: "微软雅黑", "microsoft yahei", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear-float {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.el-tooltip__popper {
+  max-width: 50%;
+}
+
+// 不同状态的字体颜色
+.text-green {
+  color: green !important;
+}
+
+.text-blue {
+  color: #0000ff !important;
+}
+
+.text-warning {
+  color: orange !important;
+}
+
+.text-error {
+  color: red !important;
+}

@@ -1,0 +1,29 @@
+{
+  "data": [{
+    "cp_guid": "05a14561ee5b",
+    "name": "肖申克",
+    "username": "test1",
+    "gender": 1,
+    "tel": "1231231321",
+    "email": "1231732@qwe.com",
+    "idCard": "1238912731",
+    "birthday": "1991-01-21",
+    "houseAddress": "xxx村",
+    "enabled": false
+  },
+  {
+    "cp_guid": "05a14561ee5b",
+    "name": "阿甘",
+    "username": "test2",
+    "gender": 1,
+    "tel": "1231231321",
+    "email": "1231732@qwe.com",
+    "idCard": "1238912731",
+    "birthday": "1991-01-21",
+    "houseAddress": "xxx村",
+    "enabled": false
+  }],
+  "pageInfo": {
+    "total": 2
+  }
+}

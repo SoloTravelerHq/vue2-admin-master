@@ -1,0 +1,55 @@
+/* 重置element-ui的样式变量："~element-ui/packages/theme-chalk/src/common/var.scss" */
+
+/* Color
+-------------------------- */
+
+// Background
+
+
+/* Link
+-------------------------- */
+
+/* Border
+-------------------------- */
+
+// Box-shadow
+
+/* Typography
+-------------------------- */
+
+/* Size
+-------------------------- */
+
+/* Menu
+-------------------------- */
+
+/* Table
+-------------------------- */
+
+/* Input
+-------------------------- */
+
+/* Button
+-------------------------- */
+
+/* Pagination
+-------------------------- */
+
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+/* 覆盖elementui的样式，定义在导入elementui主题后 */
+.el-table--small {
+  font-size: 14px;
+}
+
+.el-table td, .el-table th {
+  padding: 5px 0 !important;
+}
+
+.common-table .el-button--mini {
+  font-size: 12px !important;
+}

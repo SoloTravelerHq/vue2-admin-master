@@ -1,0 +1,9 @@
+{
+  "Authorization": "tdxszxc",
+  "userInfo": {
+    "id": 2,
+    "username": "user1",
+    "role": "普通用户",
+    "menu": ["HOME", "HOME_1", "DEMO_1", "DEMO_2", "DEMO_3", "DEMO_COMPONENT_1", "DEMO_MENU_1_1", "DEMO_MENU_1_2", "DEMO_MENU_1_2_1", "DEMO_MENU_1_2_2", "DEMO_COMPONENT_2", "DEMO_MENU_2_1", "DEMO_MENU_2_2", "DEMO_MENU_2_2_1", "DEMO_MENU_2_2_2"]
+  }
+}

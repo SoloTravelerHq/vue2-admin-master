@@ -1,0 +1,55 @@
+{
+  "name": "remy-vue-template",
+  "description": "This is a customized template project base on the vue, the element-ui is optional library",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run serve\n",
+    "test": "vue-cli-service serve --mode test",
+    "prod": "vue-cli-service serve --mode production",
+    "build": "vue-cli-service build",
+    "build_t": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run build\n",
+    "report": "vue-cli-service build --report",
+    "inspect": "vue-cli-service inspect",
+    "lint": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression-webpack-plugin": "^1.1.12",
+    "core-js": "^3.6.5",
+    "echarts": "^5.1.1",
+    "element-ui": "^2.15.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mockjs": "^1.1.0",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "ol": "^7.3.0",
+    "vue": "^2.6.11",
+    "vue-echarts": "^6.1.0",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/composition-api": "^1.6.3",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
